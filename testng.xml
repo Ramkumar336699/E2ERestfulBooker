@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/91966/E2ERestfulBooker">
+    <test verbose="2" preserve-order="true" name="C:/Users/91966/E2ERestfulBooker/src/test/java/org/E2ERestfulBooker/tests/crud/IntegrationTesting.java">
         <classes>
             <class name="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
+                <methods>
+                    <include name="createBooking_UpdateBooking_GetBookingByIdAndVerify"/>
+                    <include name="createBooking_DeleteBooking_GetBookingByIdNotExists"/>
+                    <include name="getExistingBooking_UpdateBooking_GetBookingIdAndVerify"/>
+                </methods>
             </class>
         </classes>
     </test>
