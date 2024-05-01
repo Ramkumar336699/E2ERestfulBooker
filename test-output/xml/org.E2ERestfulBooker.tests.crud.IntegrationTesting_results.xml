@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E2ERestfulBooker"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.486">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createBooking_UpdateBooking_GetBookingByIdAndVerify"
+                time="15.453"
+                classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
+            </testcase>
+            <testcase
+                name="getExistingBooking_UpdateBooking_GetBookingIdAndVerify"
+                time="10.172"
+                classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
+            </testcase>
+            <testcase
+                name="createBooking_DeleteBooking_GetBookingByIdNotExists"
+                time="8.861"
+                classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
+            </testcase>
+</testsuite>
