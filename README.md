@@ -1,1 +1,1 @@
-mvn clean test -DsuiteXmlFile=testing.xml
+mvn clean test -DsuiteXmlFile=testng.xml
