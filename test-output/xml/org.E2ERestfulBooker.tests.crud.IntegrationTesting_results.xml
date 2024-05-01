@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="C:/Users/91966/E2ERestfulBooker"
+<testsuite name="C:/Users/91966/E2ERestfulBooker/src/test/java/org/E2ERestfulBooker/tests/crud/IntegrationTesting.java"
            tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="22.312">
+           time="16.943">
     <properties></properties>
 
 
 
             <testcase
+                name="createBooking_DeleteBooking_GetBookingByIdNotExists"
+                time="4.825"
+                classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
+            </testcase>
+            <testcase
                 name="getExistingBooking_UpdateBooking_GetBookingIdAndVerify"
-                time="4.802"
+                time="4.035"
                 classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
             </testcase>
             <testcase
                 name="createBooking_UpdateBooking_GetBookingByIdAndVerify"
-                time="12.171"
-                classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
-            </testcase>
-            <testcase
-                name="createBooking_DeleteBooking_GetBookingByIdNotExists"
-                time="5.339"
+                time="8.083"
                 classname="org.E2ERestfulBooker.tests.crud.IntegrationTesting">
             </testcase>
 </testsuite>
